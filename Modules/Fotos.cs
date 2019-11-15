@@ -8,7 +8,7 @@ namespace ProyectoFinalHipermedia.Modules
         Int64 id;
         string names;
         string lastName;
-        Int64 age;
+        int age;
         string tittle;
         string descript;
         string email;
@@ -30,7 +30,7 @@ namespace ProyectoFinalHipermedia.Modules
 
         public string Names{get => names;set => names = value;}
         public string LastName{get => lastName;set => lastName = value;}
-        public Int64 Age{get => age;set => age = value;}
+        public int Age{get => age;set => age = value;}
         public string Tittle{get => tittle;set => tittle = value;}
         public string Descript{get => descript;set => descript = value;}
         public string Email{get => email;set => email = value;}
