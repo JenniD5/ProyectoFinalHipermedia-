@@ -16,7 +16,7 @@ namespace ProyectoFinalHipermedia.Modules
 
         public Fotos(){}
 
-        public Fotos(Int64 id, string names, string lastName, int age, string title, string descript, string email, string social)
+        public Fotos(Int64 id, string names, string lastName, int age, string tittle, string descript, string email, string social)
         {
             this.id = id;
             this.names = names;
@@ -28,7 +28,7 @@ namespace ProyectoFinalHipermedia.Modules
             this.social = social;
         }
 
-        public string FirstName{get => names;set => names = value;}
+        public string Names{get => names;set => names = value;}
         public string LastName{get => lastName;set => lastName = value;}
         public Int64 Age{get => age;set => age = value;}
         public string Tittle{get => tittle;set => tittle = value;}

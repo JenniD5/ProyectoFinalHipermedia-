@@ -11,7 +11,7 @@ namespace ProyectoFinalHipermedia.Controllers
     [Route("hipermedia/[controller]")]
     [ApiController]
     [EnableCors("AllowOrigin")]
-    {
+    
 
     public class FotosController: IFotos
     {
@@ -56,7 +56,7 @@ namespace ProyectoFinalHipermedia.Controllers
                Id= reader.GetInt64(reader.GetOrdinal("id")),
                LastName =reader.GetString(reader.GetOrdinal("lastName")),
                Names =reader.GetString(reader.GetOrdinal("names")),
-               Age =reader.GetString(reader.GetOrdinal("age")),///modificar la edad por le int 
+               Age =reader.GetInt64(reader.GetOrdinal("age")),///modificar la edad por le int 
                Tittle =reader.GetString(reader.GetOrdinal("tittle")),
                Descript =reader.GetString(reader.GetOrdinal("descript")),
                Email =reader.GetString(reader.GetOrdinal("email")),
