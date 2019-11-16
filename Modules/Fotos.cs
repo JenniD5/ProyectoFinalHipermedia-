@@ -13,6 +13,7 @@ namespace ProyectoFinalHipermedia.Modules
         string descript;
         string email;
         string social;
+        
 
         public Fotos(){}
 
