@@ -31,7 +31,7 @@ namespace ProyectoFinalHipermedia.Controllers
 
 
         //ver como conectar  una base de datos libre 
-        string connectionString=@"data source=LAPTOP-ENL6O117\SQLEXPRESS; initial catalog=db_portafolio; user id=2sim; password=1234";
+        string connectionString=@"data source=LAPTOP-AMOBBGOB\SQLEXPRESS; initial catalog=db_portafolio; user id=Paula; password=1234";
           
 
       [HttpGet("{id}")]
