@@ -1,3 +1,43 @@
+const apiURL='https://localhost:5001/hipermedia/Fotos'; 
+ 
+ ///persona numero 22 de la lista 
+ const nombre12=document.getElementById("nombre12");
+ const lastname12=document.getElementById("lastname12");
+ const age12=document.getElementById("age12");
+ const tittle12=document.getElementById("tittle12");
+ const descript12=document.getElementById("descript12");
+ const email12=document.getElementById("email12");
+ const social12=document.getElementById("social12");
+ const imagen1persona12=document.getElementById("imagen1persona12");
+ const imagen2persona12=document.getElementById("imagen2persona12");
+ const imagen3persona12=document.getElementById("imagen3persona12");
+ const imagen4persona12=document.getElementById("imagen4persona12");
+ const imagen5persona12=document.getElementById("imagen5persona12");
+ 
+ 
+ 
+ 
+ let getPhoto12= async()=>{                            
+     const response=await fetch (apiURL);
+     const data =await response.json();
+     nombre12.innerText=data[12].names;
+     lastname12.innerText=data[12].lastName;
+     age12.innerText=data[12].age;
+     tittle12.innerText=data[12].tittle;
+     descript12.innerText=data[12].descript;
+     email12.innerText=data[12].email;
+     social12.innerText=data[12].social;
+     imagen1persona12.src=data[12].imagen1;
+     imagen2persona12.src=data[12].imagen2;
+     imagen3persona12.src=data[12].imagen3;
+     imagen4persona12.src=data[12].imagen4;
+     imagen5persona12.src=data[12].imagen5;
+     console.log(data);
+    
+   }; getPhoto12();
+
+
+
 
 
 
@@ -15,7 +55,7 @@ const imagen3persona13=document.getElementById("imagen3persona13");
 const imagen4persona13=document.getElementById("imagen4persona13");
 const imagen5persona13=document.getElementById("imagen5persona13");
 
-const apiURL='https://localhost:5001/hipermedia/Fotos';
+
 
 
 let getPhoto13= async()=>{                            
@@ -353,6 +393,12 @@ let getPhoto21= async()=>{
     console.log(data);
    
   }; getPhoto21();
+
+
+
+
+  
+ 
 
 
 
