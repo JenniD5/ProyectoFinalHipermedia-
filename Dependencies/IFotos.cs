@@ -6,9 +6,9 @@ namespace ProyectoFinalHipermedia.Dependencies
 {
     public interface IFotos
     {
-        List<Fotos> GetFotosList();
-        
+            
         Fotos GetFotos(int id);
+        List<Fotos> GetFotosList();
     }
      
 }

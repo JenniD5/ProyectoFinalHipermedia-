@@ -31,13 +31,14 @@ namespace ProyectoFinalHipermedia.Controllers
 
 
         //ver como conectar  una base de datos libre 
-        string connectionString=@"data source=LAPTOP-ENL6O117\SQLEXPRESS; initial catalog=caliz; user id=2sim; password=1234";
+        string connectionString=@"data source=LAPTOP-ENL6O117\SQLEXPRESS; initial catalog=db_portafolio; user id=2sim; password=1234";
           
 
       [HttpGet("{id}")]
+
         public Fotos GetFotos(int id)
         {
-            return fotosList[id];
+            return fotosList [id];
         }
 
         [HttpGet]
@@ -46,7 +47,7 @@ namespace ProyectoFinalHipermedia.Controllers
         {
             List<Fotos> fotoss=new List<Fotos>();
             SqlConnection conn=new SqlConnection(connectionString);
-            SqlCommand cmd = new SqlCommand("select*from tbl_photos", conn);////nombre de la tabla
+            SqlCommand cmd = new SqlCommand("select * from tb_portafolio", conn);////nombre de la tabla
             conn.Open();
             SqlDataReader reader= cmd.ExecuteReader();
             while (reader.Read())
@@ -61,7 +62,11 @@ namespace ProyectoFinalHipermedia.Controllers
                Descript =reader.GetString(reader.GetOrdinal("descript")),
                Email =reader.GetString(reader.GetOrdinal("email")),
                Social =reader.GetString(reader.GetOrdinal("social")),
-
+                 Imagen1 =reader.GetString(reader.GetOrdinal("imagen1")),               
+            Imagen2 =reader.GetString(reader.GetOrdinal("imagen2")),
+            Imagen3 =reader.GetString(reader.GetOrdinal("imagen3")),
+            Imagen4 =reader.GetString(reader.GetOrdinal("imagen4")),
+            Imagen5 =reader.GetString(reader.GetOrdinal("imagen5"))
              };
              fotoss.Add(foto);
              ///

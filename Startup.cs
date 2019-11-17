@@ -30,6 +30,7 @@ namespace ProyectoFinalHipermedia
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
             });
             services.AddControllers();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
