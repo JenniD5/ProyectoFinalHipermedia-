@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj": {}
+    "C:\\Users\\carlo\\Documents\\proyecto-final\\api\\ProyectoFinalHipermedia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj": {
+    "C:\\Users\\carlo\\Documents\\proyecto-final\\api\\ProyectoFinalHipermedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Documents\\proyecto-final\\api\\ProyectoFinalHipermedia.csproj",
         "projectName": "ProyectoFinalHipermedia",
-        "projectPath": "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj",
+        "projectPath": "C:\\Users\\carlo\\Documents\\proyecto-final\\api\\ProyectoFinalHipermedia.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\Documents\\proyecto-final\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
