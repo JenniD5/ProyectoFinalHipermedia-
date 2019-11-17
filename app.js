@@ -13,12 +13,13 @@ const imagen3persona1=document.getElementById("imagen3persona1");
 const imagen4persona1=document.getElementById("imagen4persona1");
 const imagen5persona1=document.getElementById("imagen5persona1");
 
-const apiURL='https://localhost:5001/hipermedia/Fotos';
+const apiURL='https://localhost:5001/hipermedia/fotos/';
 
 
 let getPhoto1= async()=>{                            
     const response=await fetch (apiURL);
     const data =await response.json();
+    console.log(data);
     nombre1.innerText=data[0].names;
     lastname1.innerText=data[0].lastName;
     age1.innerText=data[0].age;
@@ -289,7 +290,7 @@ const tittle9=document.getElementById("tittle9");
 const descript9=document.getElementById("descript9");
 const email9=document.getElementById("email9");
 const social9=document.getElementById("social9");
-const imagen1persona6=document.getElementById("imagen1persona9");
+const imagen1persona9=document.getElementById("imagen1persona9");
 const imagen2persona9=document.getElementById("imagen2persona9");
 const imagen3persona9=document.getElementById("imagen3persona9");
 const imagen4persona9=document.getElementById("imagen4persona9");
