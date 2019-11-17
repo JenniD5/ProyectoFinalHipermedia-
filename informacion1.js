@@ -189,4 +189,170 @@ let getPhoto16= async()=>{
     console.log(data);
    
   }; getPhoto16();
+
+  
+  
+  ///persona numero 17 de la lista 
+const nombre17=document.getElementById("nombre17");
+const lastname17=document.getElementById("lastname17");
+const age17=document.getElementById("age17");
+const tittle17=document.getElementById("tittle17");
+const descript17=document.getElementById("descript17");
+const email17=document.getElementById("email17");
+const social17=document.getElementById("social17");
+const imagen1persona17=document.getElementById("imagen1persona17");
+const imagen2persona17=document.getElementById("imagen2persona17");
+const imagen3persona17=document.getElementById("imagen3persona17");
+const imagen4persona17=document.getElementById("imagen4persona17");
+const imagen5persona17=document.getElementById("imagen5persona17");
+
+
+
+
+let getPhoto17= async()=>{                            
+    const response=await fetch (apiURL);
+    const data =await response.json();
+    nombre17.innerText=data[17].names;
+    lastname17.innerText=data[17].lastName;
+    age17.innerText=data[17].age;
+    tittle17.innerText=data[17].tittle;
+    descript17.innerText=data[17].descript;
+    email17.innerText=data[17].email;
+    social17.innerText=data[17].social;
+    imagen1persona17.src=data[17].imagen1;
+    imagen2persona17.src=data[17].imagen2;
+    imagen3persona17.src=data[17].imagen3;
+    imagen4persona17.src=data[17].imagen4;
+    imagen5persona17.src=data[17].imagen5;
+    console.log(data);
+   
+  }; getPhoto17();
+
+
+
+
+
+  ///persona numero 18 de la lista 
+const nombre18=document.getElementById("nombre18");
+const lastname18=document.getElementById("lastname18");
+const age18=document.getElementById("age18");
+const tittle18=document.getElementById("tittle18");
+const descript18=document.getElementById("descript18");
+const email18=document.getElementById("email18");
+const social18=document.getElementById("social18");
+const imagen1persona18=document.getElementById("imagen1persona18");
+const imagen2persona18=document.getElementById("imagen2persona18");
+const imagen3persona18=document.getElementById("imagen3persona18");
+const imagen4persona18=document.getElementById("imagen4persona18");
+const imagen5persona18=document.getElementById("imagen5persona18");
+
+
+
+
+let getPhoto18= async()=>{                            
+    const response=await fetch (apiURL);
+    const data =await response.json();
+    nombre18.innerText=data[18].names;
+    lastname18.innerText=data[18].lastName;
+    age18.innerText=data[18].age;
+    tittle18.innerText=data[18].tittle;
+    descript18.innerText=data[18].descript;
+    email18.innerText=data[18].email;
+    social18.innerText=data[18].social;
+    imagen1persona18.src=data[18].imagen1;
+    imagen2persona18.src=data[18].imagen2;
+    imagen3persona18.src=data[18].imagen3;
+    imagen4persona18.src=data[18].imagen4;
+    imagen5persona18.src=data[18].imagen5;
+    console.log(data);
+   
+  }; getPhoto18();
+
+
+
+
+
+  
+
+  ///persona numero 19 de la lista 
+const nombre19=document.getElementById("nombre19");
+const lastname19=document.getElementById("lastname19");
+const age19=document.getElementById("age19");
+const tittle19=document.getElementById("tittle19");
+const descript19=document.getElementById("descript19");
+const email19=document.getElementById("email19");
+const social19=document.getElementById("social19");
+const imagen1persona19=document.getElementById("imagen1persona19");
+const imagen2persona19=document.getElementById("imagen2persona19");
+const imagen3persona19=document.getElementById("imagen3persona19");
+const imagen4persona19=document.getElementById("imagen4persona19");
+const imagen5persona19=document.getElementById("imagen5persona19");
+
+
+
+
+let getPhoto19= async()=>{                            
+    const response=await fetch (apiURL);
+    const data =await response.json();
+    nombre19.innerText=data[19].names;
+    lastname19.innerText=data[19].lastName;
+    age19.innerText=data[19].age;
+    tittle19.innerText=data[19].tittle;
+    descript19.innerText=data[19].descript;
+    email19.innerText=data[19].email;
+    social19.innerText=data[19].social;
+    imagen1persona19.src=data[19].imagen1;
+    imagen2persona19.src=data[19].imagen2;
+    imagen3persona19.src=data[19].imagen3;
+    imagen4persona19.src=data[19].imagen4;
+    imagen5persona19.src=data[19].imagen5;
+    console.log(data);
+   
+  }; getPhoto19();
+
+
+
+
+   
+
+  ///persona numero 20 de la lista 
+const nombre20=document.getElementById("nombre20");
+const lastname20=document.getElementById("lastname20");
+const age20=document.getElementById("age20");
+const tittle20=document.getElementById("tittle20");
+const descript20=document.getElementById("descript20");
+const email20=document.getElementById("email20");
+const social20=document.getElementById("social20");
+const imagen1persona20=document.getElementById("imagen1persona20");
+const imagen2persona20=document.getElementById("imagen2persona20");
+const imagen3persona20=document.getElementById("imagen3persona20");
+const imagen4persona20=document.getElementById("imagen4persona20");
+const imagen5persona20=document.getElementById("imagen5persona20");
+
+
+
+
+let getPhoto20= async()=>{                            
+    const response=await fetch (apiURL);
+    const data =await response.json();
+    nombre20.innerText=data[20].names;
+    lastname20.innerText=data[20].lastName;
+    age20.innerText=data[20].age;
+    tittle20.innerText=data[20].tittle;
+    descript20.innerText=data[20].descript;
+    email20.innerText=data[20].email;
+    social20.innerText=data[20].social;
+    imagen1persona20.src=data[20].imagen1;
+    imagen2persona20.src=data[20].imagen2;
+    imagen3persona20.src=data[20].imagen3;
+    imagen4persona20.src=data[20].imagen4;
+    imagen5persona20.src=data[20].imagen5;
+    console.log(data);
+   
+  }; getPhoto20();
+
+
+
+
+  
   
