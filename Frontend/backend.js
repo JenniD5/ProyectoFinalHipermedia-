@@ -8,7 +8,7 @@ let getData = async ()=> {
     console.log(personasData);
     personasData.forEach(element => {
         const {names, lastName} = element;
-        listaNombres.innerHTML  += `<li><a>${names} ${lastName}</a></li>`;
+        listaNombres.innerHTML  += `<li><a href="${ApiUrl}">${names} ${lastName}</a></li>`;
    }); 
 }
 
