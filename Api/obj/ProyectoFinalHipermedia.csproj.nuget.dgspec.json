@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\ProyectoFinalHipermedia.csproj": {}
+    "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\ProyectoFinalHipermedia.csproj": {
+    "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\ProyectoFinalHipermedia.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj",
         "projectName": "ProyectoFinalHipermedia",
-        "projectPath": "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\ProyectoFinalHipermedia.csproj",
-        "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
