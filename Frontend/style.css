@@ -1,14 +1,14 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background: #c8d9ff;
+    background: #404040;
 }
 
 header{
     width: 15%;
-    background-color: #003783;
-    float: left;
+    background-color: white;
 }
+
 
 
 #btn-menu{
@@ -20,7 +20,7 @@ header label{
     width: 30px;
     height: 30px;
     padding: 10px;
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid black;
 }
 
 header label:hover{
@@ -37,7 +37,7 @@ header label:hover{
 }
 
 .menu li{
-    border-top: 1px solid #ffffff;
+    border-top: 3px solid black;
 }
 
 .menu li:hover{
@@ -47,13 +47,173 @@ background: rgba(0, 0, 0, 0.3);
 .menu li a{
     display: block;
     padding: 15px 20px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
+
+.Texto{
+    font-family: 'Maven pro', sans-serif;
+    color: #fff;
+    font-size: 60px;
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 0.4%;
+  
+}
+
+.planetoide1{
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 20%;
+    width: 150%;
+   
+  }
+  
+  .planetoide2{
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 60%;
+    width: 150%;
+  }
+  
+  
+  .planetoide3{
+    position: absolute;
+    margin-top: -27%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide4{
+    position: absolute;
+    margin-top: -27%;
+    margin-left: 60%;
+    width: 150%;
+  }
+
+  .planetoide5{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide6{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 60%;
+    width: 150%;
+  }
+  .planetoide7{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide8{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 60%;
+    width: 150%;
+  }
+  .planetoide9{
+    position: absolute;
+    margin-top: 57%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide10{
+    position: absolute;
+    margin-top: 57%;
+    margin-left: 60%;
+    width: 150%;
+  }
+  .planetoide11{
+    position: absolute;
+    margin-top: 85%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide12{
+    position: absolute;
+    margin-top: 85%;
+    margin-left: 60%;
+    width: 150%;
+  }
+
+  .planetoide13{
+    position: absolute;
+    margin-top: 113%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide14{
+    position: absolute;
+    margin-top: 113%;
+    margin-left: 60%;
+    width: 150%;
+  }
+  .planetoide15{
+    position: absolute;
+    margin-top: 141%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide16{
+    position: absolute;
+    margin-top: 141%;
+    margin-left: 60%;
+    width: 150%;
+  }
+  .planetoide17{
+    position: absolute;
+    margin-top: 169%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide18{
+    position: absolute;
+    margin-top: 169%;
+    margin-left: 60%;
+    width: 150%;
+  }
+  .planetoide19{
+    position: absolute;
+    margin-top: 197%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide20{
+    position: absolute;
+    margin-top: 197%;
+    margin-left: 60%;
+    width: 150%;
+  }
+  .planetoide21{
+    position: absolute;
+    margin-top: 225%;
+    margin-left: 20%;
+    width: 150%;
+  }
+  
+  .planetoide22{
+    position: absolute;
+    margin-top: 225%;
+    margin-left: 60%;
+    width: 150%;
+  }
 
 @media only screen and (max-width:500px){
     header label{
         display: block;
+        z-index: 20;
     }
 
     .menu{
@@ -63,16 +223,147 @@ background: rgba(0, 0, 0, 0.3);
         height: auto;
         margin-left: -70%;
         transition: all 0.3s;
+        z-index: 21;
     }
   
     .menu ul{
         flex-direction: column;
+        z-index: 22;
     }
     .menu li{ 
         border-bottom: 1px solid #ffffff;
+        z-index: NaNin;
     }
 
     #btn-menu:checked ~ .menu{
         margin: 0;
     }
+
+    .Texto{
+        font-family: 'Maven pro', sans-serif;
+        color: #fff;
+        font-size: 40px;
+        position: absolute;
+        margin-top: -4%;
+        margin-left: 0.4%;
+      
+    }
+    
+    .planetoide1{
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 6%;
+        width: 350%;
+       
+      }
+      .planetoide2{
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 6%;
+        width: 350%;
+      }
+      .planetoide3{
+        position: absolute;
+        margin-top: 120%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide4{
+        position: absolute;
+        margin-top: 180%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide5{
+        position: absolute;
+        margin-top: 240%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide6{
+        position: absolute;
+        margin-top: 300%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide7{
+        position: absolute;
+        margin-top: 360%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide8{
+        position: absolute;
+        margin-top: 420%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide9{
+        position: absolute;
+        margin-top: 480%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide10{
+        position: absolute;
+        margin-top: 540%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide11{
+        position: absolute;
+        margin-top: 600%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide12{
+        position: absolute;
+        margin-top: 660%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide13{
+        position: absolute;
+        margin-top: 720%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide14{
+        position: absolute;
+        margin-top: 780%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide15{
+        position: absolute;
+        margin-top: 840%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide16{
+        position: absolute;
+        margin-top: 900%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide17{
+        position: absolute;
+        margin-top: 960%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide18{
+        position: absolute;
+        margin-top: 1020%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide19{
+        position: absolute;
+        margin-top: 1080%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide20{
+        position: absolute;
+        margin-top: 1140%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide21{
+        position: absolute;
+        margin-top: 1200%;
+        margin-left: 6%;
+        width: 350%;
+      }.planetoide22{
+        position: absolute;
+        margin-top: 1260%;
+        margin-left: 6%;
+        width: 350%;
+      }
+      
+   
+    
 }
