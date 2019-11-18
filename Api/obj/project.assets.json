@@ -456,11 +456,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\ProyectoFinalHipermedia.csproj",
+      "projectUniqueName": "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\api\\ProyectoFinalHipermedia.csproj",
       "projectName": "ProyectoFinalHipermedia",
-      "projectPath": "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\ProyectoFinalHipermedia.csproj",
+      "projectPath": "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\api\\ProyectoFinalHipermedia.csproj",
       "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\obj\\",
+      "outputPath": "C:\\Users\\Jesus\\Documents\\ProyectoFinalHipermedia-\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -36,9 +36,36 @@ namespace ProyectoFinalHipermedia.Controllers
 
       [HttpGet("{id}")]
       public Fotos GetFotos(int id)
-      {
-          return fotosList[id];
-      }
+        {
+            Fotos foto = new Fotos();
+
+            SqlConnection conn = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand($"select * from tb_portafolio where id = {id}", conn);
+            conn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            while(reader.Read()) 
+            {
+                foto = new Fotos
+                {
+                  Id= reader.GetInt64(reader.GetOrdinal("id")),
+                  LastName =reader.GetString(reader.GetOrdinal("lastName")),
+                  Names =reader.GetString(reader.GetOrdinal("names")),
+                  Age =reader.GetInt32(reader.GetOrdinal("age")),
+                  Tittle =reader.GetString(reader.GetOrdinal("tittle")),
+                  Descript =reader.GetString(reader.GetOrdinal("descript")),
+                  Email =reader.GetString(reader.GetOrdinal("email")),
+                  Social =reader.GetString(reader.GetOrdinal("social")),
+                  Imagen1 =reader.GetString(reader.GetOrdinal("imagen1")),               
+                  Imagen2 =reader.GetString(reader.GetOrdinal("imagen2")),
+                  Imagen3 =reader.GetString(reader.GetOrdinal("imagen3")),
+                  Imagen4 =reader.GetString(reader.GetOrdinal("imagen4")),
+                  Imagen5 =reader.GetString(reader.GetOrdinal("imagen5")),
+                };
+            }
+            conn.Close();
+
+            return foto;
+        }
 
       [HttpGet]
 
