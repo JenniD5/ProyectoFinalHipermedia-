@@ -7,7 +7,7 @@ let getData = async ()=> {
     const personasData = await respose.json();
     console.log(personasData);
     personasData.forEach(element => {
-        const {names, lastName} = element;
+        const {names, lastName, imagen1} = element;
         listaNombres.innerHTML  += `<li><a>${names} ${lastName}</a></li>`;
    }); 
 }

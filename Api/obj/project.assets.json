@@ -450,30 +450,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {},
+    "C:\\Users\\ruben\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj",
+      "projectUniqueName": "C:\\Users\\ruben\\documents\\ProyectoFinalHipermedia-\\Api\\ProyectoFinalHipermedia.csproj",
       "projectName": "ProyectoFinalHipermedia",
-      "projectPath": "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\ProyectoFinalHipermedia.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\Documents\\proyecto-final\\Api\\obj\\",
+      "projectPath": "C:\\Users\\ruben\\documents\\ProyectoFinalHipermedia-\\Api\\ProyectoFinalHipermedia.csproj",
+      "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ruben\\documents\\ProyectoFinalHipermedia-\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ruben\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
