@@ -10,7 +10,7 @@ const photoData = {
     imagen2 : document.getElementById('data-Imagen2'),
     imagen3 : document.getElementById('data-Imagen3'),
     imagen4 : document.getElementById('data-Imagen4'),
-    imagen5 : document.getElementById('data-Imagen5'),
+    imagen5 : document.getElementById('data-Imagen5')
 };
 
 const apiUrl = 'https://localhost:5001/hipermedia/fotos';
@@ -22,13 +22,12 @@ const getnameData = async id =>{
     console.log(nameData);
     const { names, lastName, age, tittle, descript, email, social, imagen1, imagen2, imagen3,
         imagen4, imagen5 } = nameData;
-    photoData.names.innerText = names;
-    photoData.lastName.innerText = lastName;
-    photoData.age.innerText = age;
-    photoData.tittle.innerText = tittle;
-    photoData.descript.innerText = descript;
-    photoData.email.innerText = email;
-    photoData.social.innerText = social;
+    photoData.names.innerText = `${names} ${lastName}`;
+    photoData.age.innerText = `Edad: ${age}`;
+    photoData.tittle.innerText = `Tema: ${tittle}`;
+    photoData.descript.innerText = `Descripción: ${descript}`;
+    photoData.email.innerText = `Contacto: ${email}`;
+    photoData.social.innerText = `${social}`;
     photoData.imagen1.src = imagen1;
     photoData.imagen2.src = imagen2;
     photoData.imagen3.src = imagen3;
