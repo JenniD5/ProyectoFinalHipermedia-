@@ -10,6 +10,7 @@ header{
 }
 
 
+
 #btn-menu{
     display: none;
 }
@@ -212,6 +213,7 @@ background: rgba(0, 0, 0, 0.3);
 @media only screen and (max-width:500px){
     header label{
         display: block;
+        z-index: 20;
     }
 
     .menu{
@@ -221,13 +223,16 @@ background: rgba(0, 0, 0, 0.3);
         height: auto;
         margin-left: -70%;
         transition: all 0.3s;
+        z-index: 21;
     }
   
     .menu ul{
         flex-direction: column;
+        z-index: 22;
     }
     .menu li{ 
         border-bottom: 1px solid #ffffff;
+        z-index: NaNin;
     }
 
     #btn-menu:checked ~ .menu{
