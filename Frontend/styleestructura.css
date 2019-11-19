@@ -1,7 +1,100 @@
 img{
-    width: 25%;
-    height: 25%;
-    vertical-align: middle;
+    width: 50%;
+    height: 50%;
+    
+}
+#relleno{
+    color: #ffcccc;
     text-align: center;
+    font-size: xx-large;
+}
+#Informacion{
+color: black;
+font-size: larger;
+left: 32%;
+position: absolute;
+width: 38%;
+
+margin:0 0 25px;
+overflow:hidden;
+padding:20px;
+background-color:#faecc9 ;
+-webkit-border-radius: 10px;
+border-radius: 10px;
 
 }
+#nombrecompleto{
+    font-size: x-large; 
+    left: 33%;  
+    position: absolute;
+    text-align: center;
+    color:black;
+
+}
+
+#data-Imagen1
+{
+    
+    left:28%;
+    top:420px;
+    position: relative;
+
+}
+#data-Imagen2
+{
+    
+    top:455px;
+    left: 28%;
+    position: relative;
+
+}
+
+
+#data-Imagen3
+{
+    
+    top:495px;
+    left: 28%;
+    position: relative;
+
+}
+
+
+#data-Imagen4
+{
+    top:525px;
+    left: 28%;
+    position: relative;
+
+}
+
+#data-Imagen5
+{
+  
+    top:570px;
+    left: 28%;
+    position: relative;
+
+}
+
+@media only screen and (max-width:500px){
+
+    #Informacion{
+        color: black;
+        font-size: larger;
+        width: 80%;
+        overflow:hidden;
+        background-color:#faecc9 ;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        left: 5%;
+        
+        }
+
+    #nombrecompleto{
+        left:20%;
+    }
+            
+
+}
+    
