@@ -19,10 +19,10 @@ namespace ProyectoFinalHipermedia.Modules
         string imagen4;
         string imagen5;
         
-
         public Fotos(){}
 
-        public Fotos(Int64 id, string names, string lastName, int age, string tittle, string descript, string email, string social, string imagen1, string imagen2, string imagen3, string imagen4, string imagen5)
+        public Fotos(Int64 id, string names, string lastName, int age, string tittle, string descript, string email, 
+        string social, string imagen1, string imagen2, string imagen3, string imagen4, string imagen5)
         {
             this.id = id;
             this.names = names;
@@ -52,7 +52,6 @@ namespace ProyectoFinalHipermedia.Modules
         public string Imagen3{get => imagen3;set => imagen3 = value;}
         public string Imagen4{get => imagen4;set => imagen4 = value;}
         public string Imagen5{get => imagen5;set => imagen5 = value;}
+        
     }
-
-
 }

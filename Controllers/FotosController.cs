@@ -33,50 +33,70 @@ namespace ProyectoFinalHipermedia.Controllers
         //ver como conectar  una base de datos libre 
         string connectionString=@"data source=LAPTOP-ENL6O117\SQLEXPRESS; initial catalog=db_portafolio; user id=2sim; password=1234";
           
+[HttpGet("{id}")]
+      public Fotos GetFotos(int id)
+      {
+          Fotos foto = new Fotos();
 
-      [HttpGet("{id}")]
-
-        public Fotos GetFotos(int id)
-        {
-            return fotosList [id];
-        }
-
-        [HttpGet]
-
-        public List<Fotos> GetFotosList ()
-        {
-            List<Fotos> fotoss=new List<Fotos>();
-            SqlConnection conn=new SqlConnection(connectionString);
-            SqlCommand cmd = new SqlCommand("select * from tb_portafolio", conn);////nombre de la tabla
+            SqlConnection conn = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand($"select * from tb_portafolio where id = {id}", conn);
             conn.Open();
-            SqlDataReader reader= cmd.ExecuteReader();
-            while (reader.Read())
+            SqlDataReader reader = cmd.ExecuteReader();
+            while(reader.Read())
             {
-             Fotos foto = new Fotos
-             {
-               Id= reader.GetInt64(reader.GetOrdinal("id")),
-               LastName =reader.GetString(reader.GetOrdinal("lastName")),
-               Names =reader.GetString(reader.GetOrdinal("names")),
-               Age =reader.GetInt32(reader.GetOrdinal("age")),///modificar la edad por le int 
-               Tittle =reader.GetString(reader.GetOrdinal("tittle")),
-               Descript =reader.GetString(reader.GetOrdinal("descript")),
-               Email =reader.GetString(reader.GetOrdinal("email")),
-               Social =reader.GetString(reader.GetOrdinal("social")),
-                 Imagen1 =reader.GetString(reader.GetOrdinal("imagen1")),               
+              foto = new Fotos
+              {
+                Id= reader.GetInt64(reader.GetOrdinal("id")),
+                LastName =reader.GetString(reader.GetOrdinal("lastName")),
+                Names =reader.GetString(reader.GetOrdinal("names")),
+                Age =reader.GetInt32(reader.GetOrdinal("age")),
+                Tittle =reader.GetString(reader.GetOrdinal("tittle")),
+                Descript =reader.GetString(reader.GetOrdinal("descript")),
+                Email =reader.GetString(reader.GetOrdinal("email")),
+                Social =reader.GetString(reader.GetOrdinal("social")),
+                Imagen1 =reader.GetString(reader.GetOrdinal("imagen1")),               
+                Imagen2 =reader.GetString(reader.GetOrdinal("imagen2")),
+                Imagen3 =reader.GetString(reader.GetOrdinal("imagen3")),
+                Imagen4 =reader.GetString(reader.GetOrdinal("imagen4")),
+                Imagen5 =reader.GetString(reader.GetOrdinal("imagen5")),                
+                };
+            }
+            conn.Close();
+
+            return foto;
+      }
+
+      [HttpGet]
+
+      public List<Fotos> GetFotosList ()
+      {
+        List<Fotos> fotoss=new List<Fotos>();
+        SqlConnection conn=new SqlConnection(connectionString);
+        SqlCommand cmd = new SqlCommand("select * from tb_portafolio", conn);////nombre de la tabla
+        conn.Open();
+        SqlDataReader reader= cmd.ExecuteReader();
+        while (reader.Read())
+        {
+          Fotos foto = new Fotos
+          {
+            Id= reader.GetInt64(reader.GetOrdinal("id")),
+            LastName =reader.GetString(reader.GetOrdinal("lastName")),
+            Names =reader.GetString(reader.GetOrdinal("names")),
+            Age =reader.GetInt32(reader.GetOrdinal("age")),///modificar la edad por le int 
+            Tittle =reader.GetString(reader.GetOrdinal("tittle")),
+            Descript =reader.GetString(reader.GetOrdinal("descript")),
+            Email =reader.GetString(reader.GetOrdinal("email")),
+            Social =reader.GetString(reader.GetOrdinal("social")),
+            Imagen1 =reader.GetString(reader.GetOrdinal("imagen1")),               
             Imagen2 =reader.GetString(reader.GetOrdinal("imagen2")),
             Imagen3 =reader.GetString(reader.GetOrdinal("imagen3")),
             Imagen4 =reader.GetString(reader.GetOrdinal("imagen4")),
-            Imagen5 =reader.GetString(reader.GetOrdinal("imagen5"))
-             };
-             fotoss.Add(foto);
-             ///
-             }
-           
-            conn.Close();
-            return fotoss;
-
+            Imagen5 =reader.GetString(reader.GetOrdinal("imagen5")),
+          };
+          fotoss.Add(foto);
+          }
+        conn.Close();
+        return fotoss;
       }
     }
 }
-
-
