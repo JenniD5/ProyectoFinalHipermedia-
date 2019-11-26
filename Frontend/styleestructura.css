@@ -77,6 +77,10 @@ border-radius: 10px;
 
 }
 
+#Regreso{
+    position: relative;
+}
+
 @media only screen and (max-width:500px){
 
     #Informacion{
